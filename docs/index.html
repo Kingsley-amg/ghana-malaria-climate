@@ -1602,7 +1602,7 @@ mosquito vector and the parasite both depend on
 (parasite and vector development) and <strong>humidity</strong>
 (mosquito survival). This report examines how these climate factors
 relate to malaria across <strong>Ghana’s 16 regions</strong>, sets Ghana
-in its African context, and applies a sequence of statistical models —
+in its African context, and applies a sequence of statistical models,
 ecological regression, a generalised additive model (GAM), and a test of
 spatial autocorrelation.</p>
 </div>
@@ -1610,14 +1610,13 @@ spatial autocorrelation.</p>
 <h1><span class="header-section-number">2</span> Data and methods</h1>
 <p>All data are open and current (no API keys):</p>
 <ul>
-<li><strong>Malaria</strong> — DHS Program API: malaria prevalence
-(rapid diagnostic test) in children, by region (2014–2022); and the
-World Bank malaria incidence series for African countries and Ghana (to
-2024).</li>
-<li><strong>Climate</strong> — NASA POWER: monthly rainfall, 2-metre
-temperature and relative humidity (2014–2024) at each region’s centroid,
+<li><strong>Malaria</strong>, DHS Program API: malaria prevalence (rapid
+diagnostic test) in children, by region (2014-2022); and the World Bank
+malaria incidence series for African countries and Ghana (to 2024).</li>
+<li><strong>Climate</strong>, NASA POWER: monthly rainfall, 2-metre
+temperature and relative humidity (2014-2024) at each region’s centroid,
 summarised to long-run normals.</li>
-<li><strong>Boundaries</strong> — geoBoundaries (Ghana ADM1, 16
+<li><strong>Boundaries</strong>, geoBoundaries (Ghana ADM1, 16
 regions).</li>
 </ul>
 <p>Malaria is measured at survey years rather than continuously, so this
@@ -1813,9 +1812,9 @@ conclusion</h1>
 explain roughly <strong>72% of the between-region variation</strong> in
 malaria prevalence (adjusted R-squared; 79% deviance explained by the
 GAM). The strongest correlates are <strong>lower humidity and higher
-temperature</strong> — the warmer, drier northern and middle-belt
-regions carry the highest burden — while rainfall plays a more secondary
-role. The spatial test is decisive: <strong>Moran’s I = 0.49 (p &lt;
+temperature</strong>, the warmer, drier northern and middle-belt regions
+carry the highest burden, while rainfall plays a more secondary role.
+The spatial test is decisive: <strong>Moran’s I = 0.49 (p &lt;
 0.001)</strong>, so high-malaria regions <strong>cluster</strong>
 geographically rather than being randomly scattered. The GAM lets the
 temperature effect bend, consistent with the known “optimal window” for
@@ -1824,8 +1823,8 @@ transmission.</p>
 16 regions (small n), so associations are suggestive, not causal, and
 could be confounded by socio-economic factors (housing, bed-net
 coverage, health access). Malaria is from survey years, not a continuous
-series, so seasonal lag effects of rainfall — well documented elsewhere
-— could not be modelled directly here. Climate normals smooth over
+series, so seasonal lag effects of rainfall, well documented elsewhere,
+could not be modelled directly here. Climate normals smooth over
 year-to-year variation.</p>
 <p><strong>Conclusion.</strong> Climate clearly structures the geography
 of malaria in Ghana: temperature, rainfall and humidity together explain
