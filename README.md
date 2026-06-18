@@ -27,7 +27,7 @@ A **PDF version** is in [`report/`](report/).
 
 ## 🔑 Key findings
 - Malaria prevalence ranges from ~3% (Greater Accra) to ~34% in the north.
-- The strongest climate correlates are **humidity (−)** and **temperature (+)**; the warmer, drier north carries the highest burden.
+- The strongest climate correlates are **humidity (-)** and **temperature (+)**; the warmer, drier north carries the highest burden.
 - **Significant spatial clustering** (Moran's I = 0.49, p < 0.001).
 - Supports **climate-informed, regionally targeted** malaria control.
 
